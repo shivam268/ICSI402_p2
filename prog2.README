@@ -1,0 +1,34 @@
+  This is file prog2.README in the directory
+
+          ~csi402/public/prog2
+
+(a) This directory also contains the file submission_info.txt which
+explains how you should use the turnin-csi402 program to submit your
+source files and makefile. The file submission_info.txt also contains
+additional specifications for your makefile.
+
+(b) In addition, the directory contains some sample input files for your
+program as explained below.
+
+
+Information about sample inputs for Program II:
+-----------------------------------------------
+
+   There are three sample input (binary) files for testing your program.
+These input files are called input1.bin, input2.bin and input3.bin.
+When we run the executable p2 on input1.bin using the Unix command
+
+          p2  -cd  input1.bin
+
+the output to be produced by your program (to stdout) is shown
+in the file output1.txt. (From this output file, you can easily see
+what your program should produce as output when the flag "-c" or "-d"
+is used instead of "-cd".)
+
+  Similar comments apply to the other two sample input files,
+namely input2.bin and input3.bin. The corresponding outputs are shown
+in files output2.txt and output3.txt respectively.
+
+Note: You should NOT hardcode the input file names into your
+      program. Instead, you should rely on the command line argument
+      to get the name of the input file.
